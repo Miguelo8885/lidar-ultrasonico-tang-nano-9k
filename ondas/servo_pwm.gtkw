@@ -1,0 +1,21 @@
+[*] Vista de servo_pwm: frame cada periodo y pulsos de ancho segun el indice
+[timestart] 0
+[size] 1400 650
+*-33.000000 0
+[sst_width] 220
+[signals_width] 200
+[sst_expanded] 1
+[sst_vpaned_height] 160
+@28
+tb_servo_pwm.rst
+tb_servo_pwm.frame
+@24
+tb_servo_pwm.idx_pan[3:0]
+@28
+tb_servo_pwm.pwm_pan
+@24
+tb_servo_pwm.idx_tilt[3:0]
+@28
+tb_servo_pwm.pwm_tilt
+[pattern_trace] 1
+[pattern_trace] 0
