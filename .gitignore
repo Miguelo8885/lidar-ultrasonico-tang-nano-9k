@@ -1,0 +1,19 @@
+# resultados de simulacion (se generan con ./simular.sh)
+sim/
+*.vcd
+*.vvp
+
+# archivos generados por Gowin EDA
+impl/
+*.gprj.user
+
+# LaTeX
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Python
+__pycache__/
