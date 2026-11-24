@@ -1,0 +1,276 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1520" height="1000" viewBox="0 0 1520 1000" font-family="Helvetica, Arial, sans-serif">
+<style>.mono{font-family:"DejaVu Sans Mono",Menlo,Consolas,monospace}</style>
+<rect width="1520" height="1000" fill="#ffffff"/>
+<text x="24" y="30" font-size="19" font-weight="bold" fill="#1a1a1a">median3: mediana de las tres mediciones de un punto</text><text x="24" y="50" font-size="12.5" fill="#6b6b6b">Guarda las tres últimas mediciones y entrega la del medio: una medición errónea queda descartada</text>
+<g transform="translate(0,56)">
+<polygon points="46,32 88,32 96,40 88,48 46,48" fill="#eef3fa" stroke="#1a1a1a" stroke-width="1.3"/>
+<text x="67.0" y="44" font-size="11" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="mono">clk</text>
+<path d="M96,40 L130,40" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<polygon points="130,32 160,32 166,40 160,48 130,48" fill="#fff6e0" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="146" y="44" font-size="11" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="mono">clk</text>
+<line x1="106" y1="46" x2="118" y2="34" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="115" y="59" font-size="11.5" text-anchor="start" fill="#1a1a1a" font-weight="bold" class="">1</text>
+<text x="300" y="75" font-size="10.5" text-anchor="start" fill="#6b6b6b" font-weight="bold" class="">REGISTRO DE DESPLAZAMIENTO: LAS TRES ÚLTIMAS MEDICIONES</text>
+<polygon points="46,167 88,167 96,175 88,183 46,183" fill="#eef3fa" stroke="#1a1a1a" stroke-width="1.3"/>
+<text x="67.0" y="179" font-size="11" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="mono">din</text>
+<path d="M96,175 L230,175" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<line x1="154" y1="181" x2="166" y2="169" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="163" y="166" font-size="11.5" text-anchor="start" fill="#1a1a1a" font-weight="bold" class="">13</text>
+<polygon points="15,267 88,267 96,275 88,283 15,283" fill="#eef3fa" stroke="#1a1a1a" stroke-width="1.3"/>
+<text x="51.5" y="279" font-size="11" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="mono">din_valid</text>
+<path d="M96,275 L140,275" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<line x1="116" y1="281" x2="128" y2="269" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="125" y="266" font-size="11.5" text-anchor="start" fill="#1a1a1a" font-weight="bold" class="">1</text>
+<polygon points="140,275 146,267 219,267 219,283 146,283" fill="#fff6e0" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="182.5" y="279" font-size="10.5" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="mono">din_valid</text>
+<polygon points="46,307 88,307 96,315 88,323 46,323" fill="#eef3fa" stroke="#1a1a1a" stroke-width="1.3"/>
+<text x="67.0" y="319" font-size="11" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="mono">rst</text>
+<path d="M96,315 L140,315" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<line x1="116" y1="321" x2="128" y2="309" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="125" y="306" font-size="11.5" text-anchor="start" fill="#1a1a1a" font-weight="bold" class="">1</text>
+<polygon points="140,315 146,307 177,307 177,323 146,323" fill="#fff6e0" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="161.5" y="319" font-size="10.5" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="mono">rst</text>
+<rect x="230" y="120" width="70" height="110" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.8"/>
+<polyline points="257.0,120 265.0,130 273.0,120" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="236" y="179" font-size="12" text-anchor="start" fill="#1a1a1a" font-weight="normal" class="">D</text>
+<text x="294" y="179" font-size="12" text-anchor="end" fill="#1a1a1a" font-weight="normal" class="">Q</text>
+<text x="265.0" y="154" font-size="11" text-anchor="middle" fill="#1a1a1a" font-weight="bold" class="">r0</text>
+<text x="245" y="223" font-size="9.5" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="">EN</text>
+<text x="285" y="223" font-size="9.5" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="">Reset</text>
+<path d="M265,120 L265,109" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<polygon points="250,83 280,83 280,103 265,109 250,103" fill="#fff6e0" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="265" y="97" font-size="10.5" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="mono">clk</text>
+<path d="M245,230 L245,240" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<polygon points="245,240 284.5,246 284.5,264 205.5,264 205.5,246" fill="#fff6e0" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="245" y="259" font-size="10.5" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="mono">din_valid</text>
+<path d="M285,230 L285,275" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<polygon points="285,275 303.5,281 303.5,299 266.5,299 266.5,281" fill="#fff6e0" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="285" y="294" font-size="10.5" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="mono">rst</text>
+<path d="M300,175 L450,175" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<line x1="309" y1="181" x2="321" y2="169" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="318" y="194" font-size="11.5" text-anchor="start" fill="#1a1a1a" font-weight="bold" class="">13</text>
+<circle cx="340" cy="175" r="3.6" fill="#1a1a1a"/>
+<path d="M340,175 L340,135" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<polygon points="340,135 332,129 332,111 348,111 348,129" fill="#fff6e0" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="340" y="125" font-size="10.5" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="mono">r0</text>
+<rect x="450" y="120" width="70" height="110" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.8"/>
+<polyline points="477.0,120 485.0,130 493.0,120" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="456" y="179" font-size="12" text-anchor="start" fill="#1a1a1a" font-weight="normal" class="">D</text>
+<text x="514" y="179" font-size="12" text-anchor="end" fill="#1a1a1a" font-weight="normal" class="">Q</text>
+<text x="485.0" y="154" font-size="11" text-anchor="middle" fill="#1a1a1a" font-weight="bold" class="">r1</text>
+<text x="465" y="223" font-size="9.5" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="">EN</text>
+<text x="505" y="223" font-size="9.5" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="">Reset</text>
+<path d="M485,120 L485,109" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<polygon points="470,83 500,83 500,103 485,109 470,103" fill="#fff6e0" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="485" y="97" font-size="10.5" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="mono">clk</text>
+<path d="M465,230 L465,240" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<polygon points="465,240 504.5,246 504.5,264 425.5,264 425.5,246" fill="#fff6e0" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="465" y="259" font-size="10.5" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="mono">din_valid</text>
+<path d="M505,230 L505,275" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<polygon points="505,275 523.5,281 523.5,299 486.5,299 486.5,281" fill="#fff6e0" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="505" y="294" font-size="10.5" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="mono">rst</text>
+<path d="M520,175 L670,175" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<line x1="529" y1="181" x2="541" y2="169" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="538" y="194" font-size="11.5" text-anchor="start" fill="#1a1a1a" font-weight="bold" class="">13</text>
+<circle cx="560" cy="175" r="3.6" fill="#1a1a1a"/>
+<path d="M560,175 L560,135" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<polygon points="560,135 552,129 552,111 568,111 568,129" fill="#fff6e0" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="560" y="125" font-size="10.5" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="mono">r1</text>
+<rect x="670" y="120" width="70" height="110" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.8"/>
+<polyline points="697.0,120 705.0,130 713.0,120" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="676" y="179" font-size="12" text-anchor="start" fill="#1a1a1a" font-weight="normal" class="">D</text>
+<text x="734" y="179" font-size="12" text-anchor="end" fill="#1a1a1a" font-weight="normal" class="">Q</text>
+<text x="705.0" y="154" font-size="11" text-anchor="middle" fill="#1a1a1a" font-weight="bold" class="">r2</text>
+<text x="685" y="223" font-size="9.5" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="">EN</text>
+<text x="725" y="223" font-size="9.5" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="">Reset</text>
+<path d="M705,120 L705,109" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<polygon points="690,83 720,83 720,103 705,109 690,103" fill="#fff6e0" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="705" y="97" font-size="10.5" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="mono">clk</text>
+<path d="M685,230 L685,240" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<polygon points="685,240 724.5,246 724.5,264 645.5,264 645.5,246" fill="#fff6e0" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="685" y="259" font-size="10.5" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="mono">din_valid</text>
+<path d="M725,230 L725,275" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<polygon points="725,275 743.5,281 743.5,299 706.5,299 706.5,281" fill="#fff6e0" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="725" y="294" font-size="10.5" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="mono">rst</text>
+<path d="M740,175 L820,175" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<line x1="749" y1="181" x2="761" y2="169" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="758" y="194" font-size="11.5" text-anchor="start" fill="#1a1a1a" font-weight="bold" class="">13</text>
+<circle cx="780" cy="175" r="3.6" fill="#1a1a1a"/>
+<path d="M780,175 L780,135" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<polygon points="780,135 772,129 772,111 788,111 788,129" fill="#fff6e0" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="780" y="125" font-size="10.5" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="mono">r2</text>
+<text x="880" y="180" font-size="10.5" text-anchor="start" fill="#6b6b6b" font-weight="normal" font-style="italic" class="">r0 ← din,  r1 ← r0,  r2 ← r1  (con cada din_valid)</text>
+<text x="40" y="360" font-size="10.5" text-anchor="start" fill="#6b6b6b" font-weight="bold" class="">TRES COMPARADORES "MENOR QUE" (RESTADOR DE 13 BITS: B INVERTIDO, Cin = 1, lt = Cout’)</text>
+<polygon points="300,422 324,422 330,430 324,438 300,438" fill="#fff6e0" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="312.0" y="434" font-size="10.5" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="mono">r0</text>
+<path d="M330,430 L360,430" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<line x1="340" y1="436" x2="352" y2="424" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="349" y="421" font-size="11.5" text-anchor="start" fill="#1a1a1a" font-weight="bold" class="">13</text>
+<polygon points="220,482 244,482 250,490 244,498 220,498" fill="#fff6e0" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="232.0" y="494" font-size="10.5" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="mono">r1</text>
+<polygon points="250,480 250,500 272,490" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.8"/>
+<circle cx="275.5" cy="490" r="3.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.6"/>
+<path d="M279,490 L360,490" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<line x1="324" y1="496" x2="336" y2="484" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="333" y="509" font-size="11.5" text-anchor="start" fill="#1a1a1a" font-weight="bold" class="">13</text>
+<polygon points="360,410 420,435 420,485 360,510 360,470 372,460 360,450" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.8"/>
+<text x="396" y="467" font-size="20" text-anchor="middle" fill="#1a1a1a" font-weight="bold" class="">+</text>
+<text x="365" y="434" font-size="10.5" text-anchor="start" fill="#1a1a1a" font-weight="normal" class="">A</text>
+<text x="365" y="494" font-size="10.5" text-anchor="start" fill="#1a1a1a" font-weight="normal" class="">B</text>
+<text x="390" y="490" font-size="9.5" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="">Cin</text>
+<text x="390" y="437" font-size="9.5" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="">Cout</text>
+<path d="M390,497.5 L390,516" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<text x="390" y="529" font-size="11.5" text-anchor="middle" fill="#9a3d12" font-weight="bold" class="mono">1</text>
+<line x1="384" y1="513" x2="396" y2="501" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="380" y="511" font-size="11.5" text-anchor="end" fill="#1a1a1a" font-weight="bold" class="">1</text>
+<path d="M420,460 L440,460" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<text x="446" y="464" font-size="9.5" text-anchor="start" fill="#6b6b6b" font-weight="normal" font-style="italic" class="">resultado: sin conectar</text>
+<path d="M390,422.5 L390,405 L440,405" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<line x1="384" y1="420" x2="396" y2="408" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="380" y="418" font-size="11.5" text-anchor="end" fill="#1a1a1a" font-weight="bold" class="">1</text>
+<polygon points="440,395 440,415 462,405" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.8"/>
+<circle cx="465.5" cy="405" r="3.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.6"/>
+<path d="M469,405 L500,405" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<polygon points="500,405 506,397 530,397 530,413 506,413" fill="#fff6e0" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="518.0" y="409" font-size="10.5" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="mono">ab</text>
+<text x="560" y="409" font-size="10.5" text-anchor="start" fill="#6b6b6b" font-weight="normal" font-style="italic" class="">ab = r0 &lt; r1</text>
+<polygon points="300,572 324,572 330,580 324,588 300,588" fill="#fff6e0" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="312.0" y="584" font-size="10.5" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="mono">r0</text>
+<path d="M330,580 L360,580" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<line x1="340" y1="586" x2="352" y2="574" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="349" y="571" font-size="11.5" text-anchor="start" fill="#1a1a1a" font-weight="bold" class="">13</text>
+<polygon points="220,632 244,632 250,640 244,648 220,648" fill="#fff6e0" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="232.0" y="644" font-size="10.5" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="mono">r2</text>
+<polygon points="250,630 250,650 272,640" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.8"/>
+<circle cx="275.5" cy="640" r="3.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.6"/>
+<path d="M279,640 L360,640" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<line x1="324" y1="646" x2="336" y2="634" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="333" y="659" font-size="11.5" text-anchor="start" fill="#1a1a1a" font-weight="bold" class="">13</text>
+<polygon points="360,560 420,585 420,635 360,660 360,620 372,610 360,600" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.8"/>
+<text x="396" y="617" font-size="20" text-anchor="middle" fill="#1a1a1a" font-weight="bold" class="">+</text>
+<text x="365" y="584" font-size="10.5" text-anchor="start" fill="#1a1a1a" font-weight="normal" class="">A</text>
+<text x="365" y="644" font-size="10.5" text-anchor="start" fill="#1a1a1a" font-weight="normal" class="">B</text>
+<text x="390" y="640" font-size="9.5" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="">Cin</text>
+<text x="390" y="587" font-size="9.5" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="">Cout</text>
+<path d="M390,647.5 L390,666" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<text x="390" y="679" font-size="11.5" text-anchor="middle" fill="#9a3d12" font-weight="bold" class="mono">1</text>
+<line x1="384" y1="663" x2="396" y2="651" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="380" y="661" font-size="11.5" text-anchor="end" fill="#1a1a1a" font-weight="bold" class="">1</text>
+<path d="M420,610 L440,610" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<text x="446" y="614" font-size="9.5" text-anchor="start" fill="#6b6b6b" font-weight="normal" font-style="italic" class="">resultado: sin conectar</text>
+<path d="M390,572.5 L390,555 L440,555" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<line x1="384" y1="570" x2="396" y2="558" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="380" y="568" font-size="11.5" text-anchor="end" fill="#1a1a1a" font-weight="bold" class="">1</text>
+<polygon points="440,545 440,565 462,555" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.8"/>
+<circle cx="465.5" cy="555" r="3.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.6"/>
+<path d="M469,555 L500,555" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<polygon points="500,555 506,547 530,547 530,563 506,563" fill="#fff6e0" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="518.0" y="559" font-size="10.5" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="mono">ac</text>
+<text x="560" y="559" font-size="10.5" text-anchor="start" fill="#6b6b6b" font-weight="normal" font-style="italic" class="">ac = r0 &lt; r2</text>
+<polygon points="300,722 324,722 330,730 324,738 300,738" fill="#fff6e0" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="312.0" y="734" font-size="10.5" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="mono">r1</text>
+<path d="M330,730 L360,730" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<line x1="340" y1="736" x2="352" y2="724" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="349" y="721" font-size="11.5" text-anchor="start" fill="#1a1a1a" font-weight="bold" class="">13</text>
+<polygon points="220,782 244,782 250,790 244,798 220,798" fill="#fff6e0" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="232.0" y="794" font-size="10.5" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="mono">r2</text>
+<polygon points="250,780 250,800 272,790" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.8"/>
+<circle cx="275.5" cy="790" r="3.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.6"/>
+<path d="M279,790 L360,790" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<line x1="324" y1="796" x2="336" y2="784" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="333" y="809" font-size="11.5" text-anchor="start" fill="#1a1a1a" font-weight="bold" class="">13</text>
+<polygon points="360,710 420,735 420,785 360,810 360,770 372,760 360,750" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.8"/>
+<text x="396" y="767" font-size="20" text-anchor="middle" fill="#1a1a1a" font-weight="bold" class="">+</text>
+<text x="365" y="734" font-size="10.5" text-anchor="start" fill="#1a1a1a" font-weight="normal" class="">A</text>
+<text x="365" y="794" font-size="10.5" text-anchor="start" fill="#1a1a1a" font-weight="normal" class="">B</text>
+<text x="390" y="790" font-size="9.5" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="">Cin</text>
+<text x="390" y="737" font-size="9.5" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="">Cout</text>
+<path d="M390,797.5 L390,816" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<text x="390" y="829" font-size="11.5" text-anchor="middle" fill="#9a3d12" font-weight="bold" class="mono">1</text>
+<line x1="384" y1="813" x2="396" y2="801" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="380" y="811" font-size="11.5" text-anchor="end" fill="#1a1a1a" font-weight="bold" class="">1</text>
+<path d="M420,760 L440,760" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<text x="446" y="764" font-size="9.5" text-anchor="start" fill="#6b6b6b" font-weight="normal" font-style="italic" class="">resultado: sin conectar</text>
+<path d="M390,722.5 L390,705 L440,705" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<line x1="384" y1="720" x2="396" y2="708" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="380" y="718" font-size="11.5" text-anchor="end" fill="#1a1a1a" font-weight="bold" class="">1</text>
+<polygon points="440,695 440,715 462,705" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.8"/>
+<circle cx="465.5" cy="705" r="3.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.6"/>
+<path d="M469,705 L500,705" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<polygon points="500,705 506,697 530,697 530,713 506,713" fill="#fff6e0" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="518.0" y="709" font-size="10.5" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="mono">bc</text>
+<text x="560" y="709" font-size="10.5" text-anchor="start" fill="#6b6b6b" font-weight="normal" font-style="italic" class="">bc = r1 &lt; r2</text>
+<text x="760" y="360" font-size="10.5" text-anchor="start" fill="#6b6b6b" font-weight="bold" class="">SELECCIÓN DE LA MEDIANA</text>
+<polygon points="770,402 794,402 800,410 794,418 770,418" fill="#fff6e0" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="782.0" y="414" font-size="10.5" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="mono">ab</text>
+<polygon points="770,422 794,422 800,430 794,438 770,438" fill="#fff6e0" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="782.0" y="434" font-size="10.5" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="mono">ac</text>
+<path d="M802,400 Q812,420 802,440 Q828,440 844,420 Q828,400 802,400 Z" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.8"/>
+<path d="M796,400 Q806,420 796,440" fill="none" stroke="#1a1a1a" stroke-width="1.8"/>
+<path d="M844,420 L880,420" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<polygon points="880,420 886,412 931,412 931,428 886,428" fill="#fff6e0" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="908.5" y="424" font-size="10.5" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="mono">sel_a</text>
+<text x="800" y="458" font-size="9.5" text-anchor="start" fill="#6b6b6b" font-weight="normal" font-style="italic" class="">sel_a: r0 es mayor que exactamente uno</text>
+<polygon points="770,512 794,512 800,520 794,528 770,528" fill="#fff6e0" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="782.0" y="524" font-size="10.5" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="mono">ab</text>
+<polygon points="690,532 714,532 720,540 714,548 690,548" fill="#fff6e0" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="702.0" y="544" font-size="10.5" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="mono">bc</text>
+<polygon points="720,530 720,550 742,540" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.8"/>
+<circle cx="745.5" cy="540" r="3.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.6"/>
+<path d="M749,540 L800,540" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<text x="760" y="556" font-size="10" fill="#1f4e8c" class="mono" text-decoration="overline">bc</text>
+<path d="M802,510 Q812,530 802,550 Q828,550 844,530 Q828,510 802,510 Z" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.8"/>
+<path d="M796,510 Q806,530 796,550" fill="none" stroke="#1a1a1a" stroke-width="1.8"/>
+<path d="M844,530 L880,530" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<polygon points="880,530 886,522 931,522 931,538 886,538" fill="#fff6e0" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="908.5" y="534" font-size="10.5" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="mono">sel_b</text>
+<text x="800" y="568" font-size="9.5" text-anchor="start" fill="#6b6b6b" font-weight="normal" font-style="italic" class="">sel_b: r1 es mayor que exactamente uno</text>
+<polygon points="945,632 969,632 975,640 969,648 945,648" fill="#fff6e0" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="957.0" y="644" font-size="10.5" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="mono">r2</text>
+<polygon points="945,672 969,672 975,680 969,688 945,688" fill="#fff6e0" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="957.0" y="684" font-size="10.5" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="mono">r1</text>
+<path d="M975,640 L1000,640" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<path d="M975,680 L1000,680" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<polygon points="1000,620 1030,635 1030,685 1000,700" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.8"/>
+<text x="1006" y="644" font-size="11" text-anchor="start" fill="#1a1a1a" font-weight="normal" class="">0</text>
+<text x="1006" y="684" font-size="11" text-anchor="start" fill="#1a1a1a" font-weight="normal" class="">1</text>
+<line x1="982" y1="646" x2="994" y2="634" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="991" y="631" font-size="11.5" text-anchor="start" fill="#1a1a1a" font-weight="bold" class="">13</text>
+<line x1="982" y1="686" x2="994" y2="674" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="991" y="699" font-size="11.5" text-anchor="start" fill="#1a1a1a" font-weight="bold" class="">13</text>
+<path d="M1015,692.5 L1015,710" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<polygon points="1015,710 1040.5,716 1040.5,734 989.5,734 989.5,716" fill="#fff6e0" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="1015" y="729" font-size="10.5" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="mono">sel_b</text>
+<path d="M1030,660 L1080,660 L1080,600 L1140,600" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<line x1="1054" y1="666" x2="1066" y2="654" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="1063" y="679" font-size="11.5" text-anchor="start" fill="#1a1a1a" font-weight="bold" class="">13</text>
+<text x="1034" y="653" font-size="10.5" text-anchor="start" fill="#1f4e8c" font-weight="normal" class="mono">m_bc</text>
+<polygon points="1085,632 1109,632 1115,640 1109,648 1085,648" fill="#fff6e0" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="1097.0" y="644" font-size="10.5" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="mono">r0</text>
+<path d="M1115,640 L1140,640" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<polygon points="1140,580 1170,595 1170,645 1140,660" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.8"/>
+<text x="1146" y="604" font-size="11" text-anchor="start" fill="#1a1a1a" font-weight="normal" class="">0</text>
+<text x="1146" y="644" font-size="11" text-anchor="start" fill="#1a1a1a" font-weight="normal" class="">1</text>
+<line x1="1122" y1="646" x2="1134" y2="634" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="1131" y="659" font-size="11.5" text-anchor="start" fill="#1a1a1a" font-weight="bold" class="">13</text>
+<path d="M1155,652.5 L1155,670" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<polygon points="1155,670 1180.5,676 1180.5,694 1129.5,694 1129.5,676" fill="#fff6e0" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="1155" y="689" font-size="10.5" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="mono">sel_a</text>
+<path d="M1170,620 L1200,620" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<line x1="1179" y1="626" x2="1191" y2="614" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="1188" y="611" font-size="11.5" text-anchor="start" fill="#1a1a1a" font-weight="bold" class="">13</text>
+<polygon points="1200,612 1260,612 1270,620 1260,628 1200,628" fill="#eef3fa" stroke="#1a1a1a" stroke-width="1.3"/>
+<text x="1232" y="624" font-size="11" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="mono">med</text>
+<text x="1000" y="760" font-size="10.5" text-anchor="start" fill="#6b6b6b" font-weight="normal" font-style="italic" class="">med = sel_a ? r0 : (sel_b ? r1 : r2)</text>
+</g>
+<rect x="24" y="936" width="1472" height="48" rx="8" fill="#fafafa" stroke="#d4d4d4"/>
+<line x1="42" y1="966" x2="54" y2="954" stroke="#1a1a1a" stroke-width="1.4"/><line x1="34" y1="960" x2="64" y2="960" stroke="#1a1a1a" stroke-width="1.6"/><text x="57" y="951" font-size="11" font-weight="bold">n</text>
+<text x="74" y="964" font-size="12" fill="#1a1a1a">cable de n bits</text>
+<circle cx="189" cy="960" r="3.6" fill="#1a1a1a"/><text x="199" y="964" font-size="12" fill="#1a1a1a">unión</text>
+<polygon points="254,952 284,952 290,960 284,968 254,968" fill="#fff6e0" stroke="#1a1a1a" stroke-width="1.2"/><text x="298" y="964" font-size="12" fill="#1a1a1a">misma etiqueta = misma red</text>
+<text x="479" y="964" font-size="12" fill="#9a3d12" font-weight="bold" class="mono">0001</text><text x="526" y="964" font-size="12" fill="#1a1a1a">constante en binario</text>
+<text x="664" y="964" font-size="12" fill="#1f4e8c" class="mono">sel_a</text><text x="724" y="964" font-size="12" fill="#1a1a1a">nombre de la señal</text>
+<text x="844" y="964" font-size="12" fill="#1a1a1a">Cin = 0</text>
+<rect x="924" y="948" width="6" height="26" fill="#1a1a1a"/><text x="938" y="964" font-size="12" fill="#1a1a1a">concatenación (bit más significativo arriba)</text>
+<polygon points="1214,952 1214,968 1230,960" fill="#fff" stroke="#1a1a1a" stroke-width="1.6"/><circle cx="1233" cy="960" r="3" fill="#fff" stroke="#1a1a1a" stroke-width="1.4"/><text x="1242" y="964" font-size="12" fill="#1a1a1a">inversor (bit a bit)</text>
+</svg>

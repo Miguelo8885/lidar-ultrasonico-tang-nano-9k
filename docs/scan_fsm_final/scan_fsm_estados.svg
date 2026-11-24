@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1720" height="900" viewBox="0 0 1720 900" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#1a1a1a"/></marker></defs>
+<rect width="1720" height="900" fill="#fff"/>
+<text x="24" y="30" font-size="19" font-weight="bold" fill="#1a1a1a">scan_fsm (versión final): diagrama de transición de estados</text>
+<text x="24" y="50" font-size="12.5" fill="#6b6b6b">Todas las salidas son Moore (dentro de los estados); en los arcos solo van condiciones; los arcos se evalúan en el flanco de subida de clk</text>
+<g transform="translate(0,50)">
+<circle cx="170" cy="360" r="72" fill="#fff" stroke="#1a1a1a" stroke-width="1.8"/>
+<text x="170" y="344" font-size="15" text-anchor="middle" font-weight="bold" fill="#1f3fbf">IDLE</text>
+<text x="170" y="363" font-size="12.5" text-anchor="middle" fill="#6b6b6b">S = 000</text>
+<circle cx="560" cy="210" r="72" fill="#fff" stroke="#1a1a1a" stroke-width="1.8"/>
+<text x="560" y="194" font-size="15" text-anchor="middle" font-weight="bold" fill="#1f3fbf">GAP</text>
+<text x="560" y="213" font-size="12.5" text-anchor="middle" fill="#6b6b6b">S = 011</text>
+<circle cx="980" cy="210" r="72" fill="#fff" stroke="#1a1a1a" stroke-width="1.8"/>
+<text x="980" y="194" font-size="15" text-anchor="middle" font-weight="bold" fill="#1f3fbf">FIRE</text>
+<text x="980" y="213" font-size="12.5" text-anchor="middle" fill="#6b6b6b">S = 001</text>
+<text x="980" y="234" font-size="13" text-anchor="middle" fill="#9a3d12" font-weight="bold" font-style="italic">start = 1</text>
+<circle cx="1230" cy="470" r="72" fill="#fff" stroke="#1a1a1a" stroke-width="1.8"/>
+<text x="1230" y="454" font-size="15" text-anchor="middle" font-weight="bold" fill="#1f3fbf">WAIT_ECHO</text>
+<text x="1230" y="473" font-size="12.5" text-anchor="middle" fill="#6b6b6b">S = 010</text>
+<circle cx="860" cy="650" r="72" fill="#fff" stroke="#1a1a1a" stroke-width="1.8"/>
+<text x="860" y="634" font-size="15" text-anchor="middle" font-weight="bold" fill="#1f3fbf">WRITE</text>
+<text x="860" y="653" font-size="12.5" text-anchor="middle" fill="#6b6b6b">S = 101</text>
+<text x="860" y="674" font-size="13" text-anchor="middle" fill="#9a3d12" font-weight="bold" font-style="italic">we = 1</text>
+<text x="860" y="691" font-size="13" text-anchor="middle" fill="#9a3d12" font-weight="bold" font-style="italic">step = 1</text>
+<circle cx="450" cy="650" r="72" fill="#fff" stroke="#1a1a1a" stroke-width="1.8"/>
+<text x="450" y="634" font-size="15" text-anchor="middle" font-weight="bold" fill="#1f3fbf">RETURN</text>
+<text x="450" y="653" font-size="12.5" text-anchor="middle" fill="#6b6b6b">S = 100</text>
+<circle cx="170" cy="700" r="72" fill="#fff" stroke="#1a1a1a" stroke-width="1.8" stroke-dasharray="7 5"/>
+<text x="170" y="694" font-size="15" text-anchor="middle" font-weight="bold" fill="#6b6b6b">110, 111</text>
+<text x="170" y="716" font-size="12" text-anchor="middle" fill="#6b6b6b">(no usados)</text>
+<text x="170" y="386" font-size="12" text-anchor="middle" fill="#6b6b6b" font-style="italic">running = 0</text>
+<path d="M50,215 Q80,250 117.7,307.7" fill="none" stroke="#1a1a1a" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="44" y="208" font-size="14" font-style="italic" text-anchor="end">Reset</text>
+<path d="M225.9,314.6 Q330,230 486.3,216.4" fill="none" stroke="#1a1a1a" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="330" y="222" font-size="13" text-anchor="middle" fill="#1a1a1a" font-weight="normal" font-style="italic">press</text>
+<path d="M104.2,389.3 C35.0,442.8 35.0,277.2 102.4,329.9" fill="none" stroke="#1a1a1a" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="60" y="365" font-size="13" text-anchor="end" fill="#1a1a1a" font-weight="normal" font-style="italic"><tspan text-decoration="overline">press</tspan></text>
+<path d="M630.0,193.3 Q770,160 908.0,192.9" fill="none" stroke="#1a1a1a" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="770" y="168" font-size="13" text-anchor="middle" fill="#1a1a1a" font-weight="normal" font-style="italic"><tspan text-decoration="overline">press</tspan>·fdone</text>
+<path d="M530.7,144.2 C477.2,75.0 642.8,75.0 590.1,142.4" fill="none" stroke="#1a1a1a" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="560" y="60" font-size="13" text-anchor="middle" fill="#1a1a1a" font-weight="normal" font-style="italic"><tspan text-decoration="overline">press</tspan>·<tspan text-decoration="overline">fdone</tspan></text>
+<path d="M1049.6,228.3 Q1170,260 1209.7,398.8" fill="none" stroke="#1a1a1a" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="1150" y="300" font-size="13" text-anchor="start" fill="#1a1a1a" font-weight="normal" font-style="italic"><tspan text-decoration="overline">press</tspan></text>
+<path d="M1295.8,440.7 C1365.0,387.2 1365.0,552.8 1297.6,500.1" fill="none" stroke="#1a1a1a" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="1385" y="475" font-size="13" text-anchor="start" fill="#1a1a1a" font-weight="normal" font-style="italic"><tspan text-decoration="overline">press</tspan>·<tspan text-decoration="overline">done</tspan></text>
+<path d="M1161.1,449.0 Q870,360 626.6,242.2" fill="none" stroke="#1a1a1a" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="1070" y="466" font-size="13" text-anchor="middle" fill="#1a1a1a" font-weight="normal" font-style="italic"><tspan text-decoration="overline">press</tspan>·done·<tspan text-decoration="overline">third</tspan></text>
+<text x="1070" y="483" font-size="11.5" text-anchor="middle" fill="#6b6b6b" font-weight="normal" font-style="italic">(disparo 1 o 2)</text>
+<path d="M1188.5,528.8 Q1110,640 933.9,647.0" fill="none" stroke="#1a1a1a" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="1105" y="655" font-size="13" text-anchor="start" fill="#1a1a1a" font-weight="normal" font-style="italic"><tspan text-decoration="overline">press</tspan>·done·third</text>
+<text x="1105" y="672" font-size="11.5" text-anchor="start" fill="#6b6b6b" font-weight="normal" font-style="italic">(tercer disparo)</text>
+<path d="M812.2,596.2 Q700,470 595.1,275.2" fill="none" stroke="#1a1a1a" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="765" y="585" font-size="13" text-anchor="end" fill="#1a1a1a" font-weight="normal" font-style="italic"><tspan text-decoration="overline">press</tspan>·<tspan text-decoration="overline">last</tspan></text>
+<text x="765" y="602" font-size="11.5" text-anchor="end" fill="#6b6b6b" font-weight="normal" font-style="italic">(el servo se mueve en el GAP)</text>
+<path d="M790.1,667.1 Q655,700 521.9,667.5" fill="none" stroke="#1a1a1a" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="655" y="720" font-size="13" text-anchor="middle" fill="#1a1a1a" font-weight="normal" font-style="italic"><tspan text-decoration="overline">press</tspan>·last</text>
+<text x="655" y="737" font-size="11.5" text-anchor="middle" fill="#6b6b6b" font-weight="normal" font-style="italic">(último punto)</text>
+<path d="M479.3,715.8 C532.8,785.0 367.2,785.0 419.9,717.6" fill="none" stroke="#1a1a1a" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="450" y="815" font-size="13" text-anchor="middle" fill="#1a1a1a" font-weight="normal" font-style="italic"><tspan text-decoration="overline">press</tspan>·<tspan text-decoration="overline">fdone</tspan></text>
+<path d="M500.0,598.0 C 620,470 1040,420 960.0,281.0" fill="none" stroke="#1a1a1a" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="545" y="545" font-size="13" text-anchor="end" fill="#1a1a1a" font-weight="normal" font-style="italic"><tspan text-decoration="overline">press</tspan>·fdone</text>
+<text x="545" y="562" font-size="11.5" text-anchor="end" fill="#6b6b6b" font-weight="normal" font-style="italic">(regreso terminado)</text>
+<path d="M170.0,628.0 Q170,530 170.0,434.0" fill="none" stroke="#1a1a1a" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="182" y="560" font-size="13" text-anchor="start" fill="#6b6b6b" font-weight="normal" font-style="italic">1</text>
+<path d="M300,470 Q260,440 230.6,402.4" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#ah)"/>
+<text x="305" y="488" font-size="13" text-anchor="start" fill="#1a1a1a" font-weight="normal" font-style="italic">press</text>
+<text x="305" y="505" font-size="11.5" text-anchor="start" fill="#6b6b6b" font-weight="normal" font-style="italic">(desde cualquier estado activo)</text>
+<rect x="1350" y="590" width="330" height="230" rx="8" fill="#fafafa" stroke="#d4d4d4"/>
+<text x="1364" y="616" font-size="11.5" fill="#6b6b6b" xml:space="preserve">Salidas Moore (dentro de los estados):</text>
+<text x="1364" y="637" font-size="11.5" fill="#6b6b6b" xml:space="preserve">  start en FIRE; we y step en WRITE;</text>
+<text x="1364" y="658" font-size="11.5" fill="#6b6b6b" xml:space="preserve">  running = 1 en todo estado menos IDLE</text>
+<text x="1364" y="679" font-size="11.5" fill="#6b6b6b" xml:space="preserve">third: el done que llega es del 3.er disparo</text>
+<text x="1364" y="700" font-size="11.5" fill="#6b6b6b" xml:space="preserve">fdone: pasaron N frames (GAP)</text>
+<text x="1364" y="721" font-size="11.5" fill="#6b6b6b" xml:space="preserve">       o RET frames (RETURN)</text>
+<text x="1364" y="742" font-size="11.5" fill="#6b6b6b" xml:space="preserve">press tiene prioridad en todos los estados</text>
+<text x="1364" y="763" font-size="11.5" fill="#6b6b6b" xml:space="preserve">  (WRITE igual completa el punto)</text>
+<text x="1364" y="784" font-size="11.5" fill="#6b6b6b" xml:space="preserve">N = 4, RET = 10</text>
+</g></svg>

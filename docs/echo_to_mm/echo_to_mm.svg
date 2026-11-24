@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1460" height="600" viewBox="0 0 1460 600" font-family="Helvetica, Arial, sans-serif">
+<style>.mono{font-family:"DejaVu Sans Mono",Menlo,Consolas,monospace}</style>
+<rect width="1460" height="600" fill="#ffffff"/>
+<text x="24" y="30" font-size="19" font-weight="bold" fill="#1a1a1a">echo_to_mm: tiempo de eco a distancia en milímetros</text><text x="24" y="50" font-size="12.5" fill="#6b6b6b">d_mm = 11 · t_us / 64 con dos desplazadores a la izquierda, dos sumadores y un desplazador a la derecha</text>
+<g transform="translate(0,56)">
+<polygon points="46,207 88,207 96,215 88,223 46,223" fill="#eef3fa" stroke="#1a1a1a" stroke-width="1.3"/>
+<text x="67.0" y="219" font-size="11" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="mono">t_us</text>
+<path d="M96,215 L200,215" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<line x1="144" y1="221" x2="156" y2="209" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="153" y="206" font-size="11.5" text-anchor="start" fill="#1a1a1a" font-weight="bold" class="">13</text>
+<path d="M150,175 L200,175" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<text x="150" y="170" font-size="11.5" text-anchor="end" fill="#9a3d12" font-weight="bold" class="mono">000</text>
+<line x1="164" y1="181" x2="176" y2="169" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="173" y="166" font-size="11.5" text-anchor="start" fill="#1a1a1a" font-weight="bold" class="">3</text>
+<rect x="200" y="160" width="6" height="70" fill="#1a1a1a"/>
+<text x="210" y="162" font-size="9" text-anchor="start" fill="#6b6b6b" font-weight="normal" class="">[15:13]</text>
+<text x="210" y="236" font-size="9" text-anchor="start" fill="#6b6b6b" font-weight="normal" class="">[12:0]</text>
+<path d="M206,195 L260,195" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<line x1="219" y1="201" x2="231" y2="189" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="228" y="214" font-size="11.5" text-anchor="start" fill="#1a1a1a" font-weight="bold" class="">16</text>
+<text x="212" y="188" font-size="10.5" text-anchor="start" fill="#1f4e8c" font-weight="normal" class="mono">ext</text>
+<circle cx="260" cy="195" r="3.6" fill="#1a1a1a"/>
+<text x="110" y="260" font-size="9.5" text-anchor="start" fill="#6b6b6b" font-weight="normal" font-style="italic" class="">extensión con ceros a 16 bits</text>
+<path d="M260,195 L260,130 L304,130" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<path d="M260,195 L304,195" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<path d="M260,195 L260,300 L640,300" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<line x1="254" y1="171" x2="266" y2="159" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="250" y="169" font-size="11.5" text-anchor="end" fill="#1a1a1a" font-weight="bold" class="">16</text>
+<line x1="594" y1="306" x2="606" y2="294" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="603" y="319" font-size="11.5" text-anchor="start" fill="#1a1a1a" font-weight="bold" class="">16</text>
+<polygon points="308,116 350,116 342,144 300,144" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.8"/>
+<text x="325" y="135" font-size="13" text-anchor="middle" fill="#1a1a1a" font-weight="bold" class="">&lt;&lt;</text>
+<path d="M325,100 L325,116" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<text x="325" y="95" font-size="11.5" text-anchor="middle" fill="#9a3d12" font-weight="bold" class="mono">011</text>
+<line x1="319" y1="114" x2="331" y2="102" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="335" y="112" font-size="11.5" text-anchor="start" fill="#1a1a1a" font-weight="bold" class="">3</text>
+<path d="M346,130 L460,130" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<line x1="404" y1="136" x2="416" y2="124" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="413" y="121" font-size="11.5" text-anchor="start" fill="#1a1a1a" font-weight="bold" class="">16</text>
+<text x="352" y="123" font-size="10.5" text-anchor="start" fill="#1f4e8c" font-weight="normal" class="mono">x8</text>
+<text x="352" y="152" font-size="9.5" text-anchor="start" fill="#6b6b6b" font-weight="normal" font-style="italic" class="">= 8t</text>
+<polygon points="308,181 350,181 342,209 300,209" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.8"/>
+<text x="325" y="200" font-size="13" text-anchor="middle" fill="#1a1a1a" font-weight="bold" class="">&lt;&lt;</text>
+<path d="M325,165 L325,181" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<text x="325" y="160" font-size="11.5" text-anchor="middle" fill="#9a3d12" font-weight="bold" class="mono">001</text>
+<line x1="319" y1="179" x2="331" y2="167" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="335" y="177" font-size="11.5" text-anchor="start" fill="#1a1a1a" font-weight="bold" class="">3</text>
+<path d="M346,195 L460,195" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<line x1="404" y1="201" x2="416" y2="189" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="413" y="214" font-size="11.5" text-anchor="start" fill="#1a1a1a" font-weight="bold" class="">16</text>
+<text x="352" y="188" font-size="10.5" text-anchor="start" fill="#1f4e8c" font-weight="normal" class="mono">x2</text>
+<text x="352" y="217" font-size="9.5" text-anchor="start" fill="#6b6b6b" font-weight="normal" font-style="italic" class="">= 2t</text>
+<polygon points="460,110 520,135 520,185 460,210 460,170 472,160 460,150" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.8"/>
+<text x="496" y="167" font-size="20" text-anchor="middle" fill="#1a1a1a" font-weight="bold" class="">+</text>
+<text x="465" y="134" font-size="10.5" text-anchor="start" fill="#1a1a1a" font-weight="normal" class="">A</text>
+<text x="465" y="194" font-size="10.5" text-anchor="start" fill="#1a1a1a" font-weight="normal" class="">B</text>
+<text x="490" y="190" font-size="9.5" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="">Cin</text>
+<text x="490" y="137" font-size="9.5" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="">Cout</text>
+<path d="M490,197.5 L490,216" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<text x="490" y="229" font-size="11.5" text-anchor="middle" fill="#9a3d12" font-weight="bold" class="mono">0</text>
+<line x1="484" y1="213" x2="496" y2="201" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="480" y="211" font-size="11.5" text-anchor="end" fill="#1a1a1a" font-weight="bold" class="">1</text>
+<path d="M490,122.5 L490,100" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<text x="496" y="102" font-size="9.5" text-anchor="start" fill="#6b6b6b" font-weight="normal" font-style="italic" class="">sin conectar</text>
+<path d="M520,160 L580,160 L580,240 L640,240" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<line x1="544" y1="166" x2="556" y2="154" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="553" y="151" font-size="11.5" text-anchor="start" fill="#1a1a1a" font-weight="bold" class="">16</text>
+<text x="524" y="153" font-size="10.5" text-anchor="start" fill="#1f4e8c" font-weight="normal" class="mono">s10</text>
+<text x="590" y="200" font-size="9.5" text-anchor="start" fill="#6b6b6b" font-weight="normal" font-style="italic" class="">= 10t</text>
+<polygon points="640,220 700,245 700,295 640,320 640,280 652,270 640,260" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.8"/>
+<text x="676" y="277" font-size="20" text-anchor="middle" fill="#1a1a1a" font-weight="bold" class="">+</text>
+<text x="645" y="244" font-size="10.5" text-anchor="start" fill="#1a1a1a" font-weight="normal" class="">A</text>
+<text x="645" y="304" font-size="10.5" text-anchor="start" fill="#1a1a1a" font-weight="normal" class="">B</text>
+<text x="670" y="300" font-size="9.5" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="">Cin</text>
+<text x="670" y="247" font-size="9.5" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="">Cout</text>
+<path d="M670,307.5 L670,326" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<text x="670" y="339" font-size="11.5" text-anchor="middle" fill="#9a3d12" font-weight="bold" class="mono">0</text>
+<line x1="664" y1="323" x2="676" y2="311" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="660" y="321" font-size="11.5" text-anchor="end" fill="#1a1a1a" font-weight="bold" class="">1</text>
+<path d="M670,232.5 L670,212" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<text x="676" y="214" font-size="9.5" text-anchor="start" fill="#6b6b6b" font-weight="normal" font-style="italic" class="">sin conectar</text>
+<path d="M700,270 L780,270" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<line x1="739" y1="276" x2="751" y2="264" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="748" y="261" font-size="11.5" text-anchor="start" fill="#1a1a1a" font-weight="bold" class="">16</text>
+<text x="704" y="263" font-size="10.5" text-anchor="start" fill="#1f4e8c" font-weight="normal" class="mono">s11</text>
+<text x="704" y="292" font-size="9.5" text-anchor="start" fill="#6b6b6b" font-weight="normal" font-style="italic" class="">= 11t</text>
+<polygon points="788,256 830,256 822,284 780,284" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.8"/>
+<text x="805" y="275" font-size="13" text-anchor="middle" fill="#1a1a1a" font-weight="bold" class="">&gt;&gt;</text>
+<path d="M805,240 L805,256" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<text x="805" y="235" font-size="11.5" text-anchor="middle" fill="#9a3d12" font-weight="bold" class="mono">0110</text>
+<line x1="799" y1="254" x2="811" y2="242" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="815" y="252" font-size="11.5" text-anchor="start" fill="#1a1a1a" font-weight="bold" class="">4</text>
+<path d="M826,270 L900,270" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<line x1="854" y1="276" x2="866" y2="264" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="863" y="261" font-size="11.5" text-anchor="start" fill="#1a1a1a" font-weight="bold" class="">16</text>
+<text x="832" y="263" font-size="10.5" text-anchor="start" fill="#1f4e8c" font-weight="normal" class="mono">sh</text>
+<text x="832" y="292" font-size="9.5" text-anchor="start" fill="#6b6b6b" font-weight="normal" font-style="italic" class="">= 11t / 64</text>
+<rect x="900" y="245" width="6" height="55" fill="#1a1a1a"/>
+<text x="912" y="245" font-size="9" text-anchor="start" fill="#6b6b6b" font-weight="normal" class="">[15:10]</text>
+<path d="M906,252 L980,252" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<text x="986" y="256" font-size="9.5" text-anchor="start" fill="#6b6b6b" font-weight="normal" font-style="italic" class="">sin conectar (siempre 0 si t ≤ 5 957)</text>
+<text x="912" y="296" font-size="9" text-anchor="start" fill="#6b6b6b" font-weight="normal" class="">[9:0]</text>
+<path d="M906,285 L1150,285" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<line x1="1094" y1="291" x2="1106" y2="279" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="1103" y="276" font-size="11.5" text-anchor="start" fill="#1a1a1a" font-weight="bold" class="">10</text>
+<polygon points="1150,277 1210,277 1220,285 1210,293 1150,293" fill="#eef3fa" stroke="#1a1a1a" stroke-width="1.3"/>
+<text x="1182" y="289" font-size="11" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="mono">d_mm</text>
+<text x="96" y="400" font-size="11" text-anchor="start" fill="#6b6b6b" font-weight="normal" font-style="italic" class="">d = 343 m/s · t / 2 = 0,1715 mm/µs  ≈  11/64 = 0,171875  (+0,22 %);   11t = 8t + 2t + t;   ÷64 = desplazar 6 a la derecha (trunca)</text>
+<text x="96" y="422" font-size="11" text-anchor="start" fill="#6b6b6b" font-weight="normal" font-style="italic" class="">Ancho mínimo: 16 bits alcanzan mientras 11t ≤ 65 535, es decir t ≤ 5 957 µs. hcsr04_ctrl satura en T_MAX = 5 000 µs → 859 mm.</text>
+<text x="96" y="444" font-size="11" text-anchor="start" fill="#6b6b6b" font-weight="normal" font-style="italic" class="">Módulo combinacional: sin reloj ni reset.</text>
+</g>
+<rect x="24" y="536" width="1412" height="48" rx="8" fill="#fafafa" stroke="#d4d4d4"/>
+<line x1="42" y1="566" x2="54" y2="554" stroke="#1a1a1a" stroke-width="1.4"/><line x1="34" y1="560" x2="64" y2="560" stroke="#1a1a1a" stroke-width="1.6"/><text x="57" y="551" font-size="11" font-weight="bold">n</text>
+<text x="74" y="564" font-size="12" fill="#1a1a1a">cable de n bits</text>
+<circle cx="189" cy="560" r="3.6" fill="#1a1a1a"/><text x="199" y="564" font-size="12" fill="#1a1a1a">unión</text>
+<polygon points="254,552 284,552 290,560 284,568 254,568" fill="#fff6e0" stroke="#1a1a1a" stroke-width="1.2"/><text x="298" y="564" font-size="12" fill="#1a1a1a">misma etiqueta = misma red</text>
+<text x="479" y="564" font-size="12" fill="#9a3d12" font-weight="bold" class="mono">0001</text><text x="526" y="564" font-size="12" fill="#1a1a1a">constante en binario</text>
+<text x="664" y="564" font-size="12" fill="#1f4e8c" class="mono">s11</text><text x="724" y="564" font-size="12" fill="#1a1a1a">nombre de la señal</text>
+<text x="844" y="564" font-size="12" fill="#1a1a1a">Cin = 0</text>
+<rect x="924" y="548" width="6" height="26" fill="#1a1a1a"/><text x="938" y="564" font-size="12" fill="#1a1a1a">concatenación (bit más significativo arriba)</text>
+<polygon points="1214,552 1214,568 1230,560" fill="#fff" stroke="#1a1a1a" stroke-width="1.6"/><circle cx="1233" cy="560" r="3" fill="#fff" stroke="#1a1a1a" stroke-width="1.4"/><text x="1242" y="564" font-size="12" fill="#1a1a1a">inversor (bit a bit)</text>
+</svg>

@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" font-family="Helvetica, Arial, sans-serif">
+<style>.mono{font-family:"DejaVu Sans Mono",Menlo,Consolas,monospace}</style>
+<rect width="1000" height="560" fill="#ffffff"/>
+<text x="24" y="30" font-size="19" font-weight="bold" fill="#1a1a1a">tick_gen: pulso de un ciclo cada 1 µs (27 ciclos de 27 MHz)</text><text x="24" y="50" font-size="12.5" fill="#6b6b6b">Contador módulo 27 con reset síncrono: cuenta 0, 1, ..., 26 y vuelve a 0</text>
+<g transform="translate(0,56)">
+<polygon points="46,112 88,112 96,120 88,128 46,128" fill="#eef3fa" stroke="#1a1a1a" stroke-width="1.3"/>
+<text x="68" y="124" font-size="11" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="mono">clk</text>
+<path d="M96,120 L130,120" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<polygon points="130,112 160,112 166,120 160,128 130,128" fill="#fff6e0" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="146" y="124" font-size="11" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="mono">clk</text>
+<line x1="106" y1="126" x2="118" y2="114" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="115" y="139" font-size="11.5" text-anchor="start" fill="#1a1a1a" font-weight="bold" class="">1</text>
+<path d="M180,200 L260,200" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<text x="176" y="204" font-size="11.5" text-anchor="end" fill="#9a3d12" font-weight="bold" class="mono">00001</text>
+<line x1="208" y1="206" x2="220" y2="194" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="217" y="191" font-size="11.5" text-anchor="start" fill="#1a1a1a" font-weight="bold" class="">5</text>
+<polygon points="260,120 320,145 320,195 260,220 260,180 272,170 260,160" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.8"/>
+<text x="296" y="177" font-size="20" text-anchor="middle" fill="#1a1a1a" font-weight="bold" class="">+</text>
+<text x="265" y="144" font-size="10.5" text-anchor="start" fill="#1a1a1a" font-weight="normal" class="">A</text>
+<text x="265" y="204" font-size="10.5" text-anchor="start" fill="#1a1a1a" font-weight="normal" class="">B</text>
+<text x="290" y="200" font-size="9.5" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="">Cin</text>
+<text x="290" y="147" font-size="9.5" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="">Cout</text>
+<path d="M290,207.5 L290,232" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<text x="290" y="245" font-size="11.5" text-anchor="middle" fill="#9a3d12" font-weight="bold" class="mono">0</text>
+<line x1="284" y1="228" x2="296" y2="216" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="280" y="226" font-size="11.5" text-anchor="end" fill="#1a1a1a" font-weight="bold" class="">1</text>
+<path d="M290,132.5 L290,108" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<text x="296" y="106" font-size="9.5" text-anchor="start" fill="#6b6b6b" font-weight="normal" font-style="italic" class="">sin conectar</text>
+<path d="M320,170 L420,170" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<text x="332" y="163" font-size="11.5" text-anchor="start" fill="#1f4e8c" font-weight="normal" class="mono">cnt_inc</text>
+<line x1="396" y1="176" x2="408" y2="164" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="405" y="161" font-size="11.5" text-anchor="start" fill="#1a1a1a" font-weight="bold" class="">5</text>
+<rect x="420" y="115" width="70" height="110" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.8"/>
+<polyline points="447.0,115 455.0,125 463.0,115" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="426" y="174" font-size="12" text-anchor="start" fill="#1a1a1a" font-weight="normal" class="">D</text>
+<text x="484" y="174" font-size="12" text-anchor="end" fill="#1a1a1a" font-weight="normal" class="">Q</text>
+<text x="455.0" y="149" font-size="11" text-anchor="middle" fill="#1a1a1a" font-weight="bold" class="">cnt</text>
+<text x="435" y="218" font-size="9.5" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class=""></text>
+<text x="475" y="218" font-size="9.5" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="">Reset</text>
+<text x="468" y="250" font-size="9.5" text-anchor="end" fill="#6b6b6b" font-weight="normal" font-style="italic" class="">sin EN: avanza</text>
+<text x="468" y="262" font-size="9.5" text-anchor="end" fill="#6b6b6b" font-weight="normal" font-style="italic" class="">en cada ciclo</text>
+<path d="M455,115 L455,104" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<polygon points="440,78 470,78 470,98 455,104 440,98" fill="#fff6e0" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="455" y="92" font-size="10.5" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="mono">clk</text>
+<path d="M490,170 L615,170 L615,300" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<circle cx="540" cy="170" r="3.6" fill="#1a1a1a"/>
+<line x1="506" y1="176" x2="518" y2="164" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="515" y="189" font-size="11.5" text-anchor="start" fill="#1a1a1a" font-weight="bold" class="">5</text>
+<text x="560" y="163" font-size="11.5" text-anchor="start" fill="#1f4e8c" font-weight="normal" class="mono">cnt[4:0]</text>
+<path d="M540,170 L540,56 L230,56 L230,140 L260,140" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<line x1="224" y1="106" x2="236" y2="94" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="220" y="104" font-size="11.5" text-anchor="end" fill="#1a1a1a" font-weight="bold" class="">5</text>
+<text x="385" y="50" font-size="11.5" text-anchor="middle" fill="#1f4e8c" font-weight="normal" class="mono">cnt</text>
+<line x1="609" y1="246" x2="621" y2="234" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="605" y="244" font-size="11.5" text-anchor="end" fill="#1a1a1a" font-weight="bold" class="">5</text>
+<path d="M645,256 L645,300" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<text x="645" y="250" font-size="11.5" text-anchor="middle" fill="#9a3d12" font-weight="bold" class="mono">11010</text>
+<text x="675" y="250" font-size="10" text-anchor="start" fill="#6b6b6b" font-weight="normal" class="">(26)</text>
+<line x1="639" y1="288" x2="651" y2="276" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="648" y="273" font-size="11.5" text-anchor="start" fill="#1a1a1a" font-weight="bold" class="">5</text>
+<rect x="600" y="300" width="60" height="34" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.8"/>
+<text x="630.0" y="324" font-size="20" text-anchor="middle" fill="#1a1a1a" font-weight="bold" class="">=</text>
+<text x="609" y="312" font-size="9.5" text-anchor="start" fill="#1a1a1a" font-weight="normal" class="">A</text>
+<text x="651" y="312" font-size="9.5" text-anchor="end" fill="#1a1a1a" font-weight="normal" class="">B</text>
+<path d="M630,334 L630,430 L360,430 L360,330 L380,330" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<circle cx="630" cy="380" r="3.6" fill="#1a1a1a"/>
+<path d="M630,380 L880,380" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<line x1="794" y1="386" x2="806" y2="374" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="803" y="371" font-size="11.5" text-anchor="start" fill="#1a1a1a" font-weight="bold" class="">1</text>
+<text x="642" y="374" font-size="11.5" text-anchor="start" fill="#1f4e8c" font-weight="normal" class="mono">tick</text>
+<line x1="624" y1="416" x2="636" y2="404" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="640" y="414" font-size="11.5" text-anchor="start" fill="#1a1a1a" font-weight="bold" class="">1</text>
+<polygon points="880,372 940,372 950,380 940,388 880,388" fill="#eef3fa" stroke="#1a1a1a" stroke-width="1.3"/>
+<text x="912" y="384" font-size="11" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="mono">tick</text>
+<polygon points="46,302 88,302 96,310 88,318 46,318" fill="#eef3fa" stroke="#1a1a1a" stroke-width="1.3"/>
+<text x="68" y="314" font-size="11" text-anchor="middle" fill="#1a1a1a" font-weight="normal" class="mono">rst</text>
+<path d="M96,310 L380,310" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<line x1="194" y1="316" x2="206" y2="304" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="203" y="301" font-size="11.5" text-anchor="start" fill="#1a1a1a" font-weight="bold" class="">1</text>
+<path d="M380,300 Q390,320 380,340 Q406,340 422,320 Q406,300 380,300 Z" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.8"/>
+<path d="M422,320 L475,320 L475,225" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="miter"/>
+<line x1="469" y1="286" x2="481" y2="274" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="485" y="284" font-size="11.5" text-anchor="start" fill="#1a1a1a" font-weight="bold" class="">1</text>
+<text x="482" y="300" font-size="11.5" text-anchor="start" fill="#1f4e8c" font-weight="normal" class="mono">cnt_rst</text>
+</g>
+<rect x="24" y="496" width="952" height="48" rx="8" fill="#fafafa" stroke="#d4d4d4"/>
+<line x1="42" y1="526" x2="54" y2="514" stroke="#1a1a1a" stroke-width="1.4"/><line x1="34" y1="520" x2="64" y2="520" stroke="#1a1a1a" stroke-width="1.6"/><text x="57" y="511" font-size="11" font-weight="bold">n</text>
+<text x="74" y="524" font-size="12" fill="#1a1a1a">cable de n bits</text>
+<circle cx="189" cy="520" r="3.6" fill="#1a1a1a"/><text x="199" y="524" font-size="12" fill="#1a1a1a">unión</text>
+<polygon points="254,512 284,512 290,520 284,528 254,528" fill="#fff6e0" stroke="#1a1a1a" stroke-width="1.2"/><text x="298" y="524" font-size="12" fill="#1a1a1a">misma etiqueta = misma red</text>
+<text x="479" y="524" font-size="12" fill="#9a3d12" font-weight="bold" class="mono">11010</text><text x="526" y="524" font-size="12" fill="#1a1a1a">constante en binario</text>
+<text x="664" y="524" font-size="12" fill="#1f4e8c" class="mono">cnt_inc</text><text x="724" y="524" font-size="12" fill="#1a1a1a">nombre de la señal</text>
+<text x="844" y="524" font-size="12" fill="#1a1a1a">Cin = 0</text>
+</svg>
